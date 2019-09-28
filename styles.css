@@ -1,0 +1,73 @@
+#coverpage{
+    height:100%;
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=1000);
+    background-attachment: fixed;
+    padding-top: -20px;
+
+}
+body{
+    overflow-x: hidden;
+    text-align: center;
+    background-image:url(/images/IMG_3983.JPG);
+    background-size: -cover;
+}
+#headline{
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 60px
+
+}
+#intro{
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display SC' serif;
+    font-size: 40px;
+}
+.covernav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 70px;
+  text-align: center;
+  overflow: hidden;
+  background-color: #A9A9A9;
+}
+.colornav:hover{
+    color: yellow;
+}
+.colornav{
+    color: white;
+    padding: 10px;
+}
+#projects img{
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+  width:  25%;
+}
+.space{
+  padding-top:40px;
+}
+#projects a{
+  text-decoration:none;
+}
+
+footer{
+    margin-top: -2px;
+    height: 400px;
+    display: block;
+  }
+  fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
